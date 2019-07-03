@@ -1,0 +1,37 @@
+  body.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  #change-theme-btn {
+    font: inherit;
+    padding: 0.1em 0.25em;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  #change-theme-btn::before, #change-theme-btn::after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    transition: all 0.15s ease-out;
+  }
+  #change-theme-btn:hover {
+    text-decoration: underline;
+  }
+  .dark-theme #change-theme-btn::before {
+    left: -100%;
+  }
+  .dark-theme #change-theme-btn::after {
+    left: 0;
+  }
+  
