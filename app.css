@@ -23,3 +23,42 @@ a.button {
     background-color: transparent;
     overflow: hidden;
 }
+.tab {
+    font: "cufon";
+    padding: 0.1em 0.25em;
+    border: 0;
+    outline: 0;
+    color: blueviolet;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .tab button {
+    font: "cufon";
+    padding: 0.1em 0.25em;
+    border: 0;
+    outline: 0;
+    color: blueviolet;
+    cursor: pointer;
+    transition: all 0.15s ease-out;
+    position: relative;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .tab button:hover {
+    background-color: #000000;
+  }
+  
+  .tab button.active {
+    background-color: #000000;
+  }
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #000000;
+    border-top: none;
+  }

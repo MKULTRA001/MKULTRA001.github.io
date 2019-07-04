@@ -28,8 +28,7 @@
   #change-theme-btn::after {
     background-color: 	#ffffff;
     left: 100%;
-  }
-  
+  }  
   #change-theme-btn:hover {
     text-decoration: underline;
   }
